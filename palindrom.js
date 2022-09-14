@@ -1,18 +1,12 @@
-n=3;
-let str1=[];
-let str2=[];
-let str="mom";
+let str1="mon";
+let str2 = "";
 
-for(let i=n-1;i<0;i--){
-    str1=str[i]
+for(let i=str1.length-1;i>=0;i--){
+    str2 +=str1[i]
     
 }
-for(let j=0;j<n;j++){
-    str2=str[j]
- 
-}
 if(str1===str2){
-    console.log("palindrom")
+    console.log("Palindrom")
 }else{
-    console.log("not palindrom");
+    console.log("Not Palindrom");
 }
